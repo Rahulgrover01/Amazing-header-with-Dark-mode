@@ -4,11 +4,11 @@ let btnText= document.getElementById("btnText")
 btn.onclick=()=>{
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains("dark-theme")){
-        btnIcon.src= "./sun.png"
+        btnIcon.src= "images/sun.png"
         btnText.textContent="Light"
     }
     else{
-        btnIcon.src= "./moon.png"
+        btnIcon.src= "images/moon.png"
         btnText.textContent="Dark"
     }
 }
